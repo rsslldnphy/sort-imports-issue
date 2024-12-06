@@ -4,7 +4,7 @@ const config = {
   trailingComma: "all",
   singleQuote: false,
   semi: true,
-  importOrder: ["^@casekit/(.*)$", "^~(.*)$", "^#(.*)$", "^[^.](.*)$", "^[./]"],
+  importOrder: ["^[^.](.*)$", "^[./]"],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   plugins: ["@trivago/prettier-plugin-sort-imports"],
